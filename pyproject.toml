@@ -23,5 +23,5 @@ dev = [
 ]
 
 [tool.poe.tasks]
-lint = "ruff check ."
+lint = "ruff check . --fix"
 typecheck = "ty check ."
